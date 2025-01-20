@@ -15,6 +15,9 @@ Estrutura do Projeto
         └── icc_trusted.xlsx       # Dados processados para ICC (trusted)
         └── icf_trusted.xlsx       # Dados processados para ICF (trusted)
         └── icf_icc_refined.xlsx   # Dados combinados e refinados de ICC e ICF
+    download_dados.py
+    inserir_dados.py
+    requirements.txt
   
 Requisitos
 
