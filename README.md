@@ -4,17 +4,17 @@ Este projeto automatiza o processamento e carregamento de dados para o BigQuery 
 
 Estrutura do Projeto
 
-/service_account
-    └── service_account.json   # Arquivo de credenciais do Google Cloud
-/downloads
-    └── icc.xlsx               # Arquivo Excel para processar ICC
-    └── icf.xlsx               # Arquivo Excel para processar ICF
-/processado
-    └── icc_raw.xlsx           # Dados processados para ICC (raw)
-    └── icf_raw.xlsx           # Dados processados para ICF (raw)
-    └── icc_trusted.xlsx       # Dados processados para ICC (trusted)
-    └── icf_trusted.xlsx       # Dados processados para ICF (trusted)
-    └── icf_icc_refined.xlsx   # Dados combinados e refinados de ICC e ICF
+    /service_account
+        └── service_account.json   # Arquivo de credenciais do Google Cloud
+    /downloads
+        └── icc.xlsx               # Arquivo Excel para processar ICC
+        └── icf.xlsx               # Arquivo Excel para processar ICF
+    /processado
+        └── icc_raw.xlsx           # Dados processados para ICC (raw)
+        └── icf_raw.xlsx           # Dados processados para ICF (raw)
+        └── icc_trusted.xlsx       # Dados processados para ICC (trusted)
+        └── icf_trusted.xlsx       # Dados processados para ICF (trusted)
+        └── icf_icc_refined.xlsx   # Dados combinados e refinados de ICC e ICF
   
 Requisitos
 
